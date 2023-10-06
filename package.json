@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "rimraf ./build && tsc && node ./build/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
